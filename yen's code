@@ -5,7 +5,7 @@ import time
 #MY PINZ
 sound_pin = machine.Pin(16, machine.Pin.IN)
 led_pin = machine.Pin(17, machine.Pin.OUT)
-sensor_pin1 = Pin(14, Pin.IN) 
+sensor_pin1 = Pin(14, Pin.IN)
 sensor_pin2 = machine.Pin(0, machine.Pin.IN) # GPIO PIN 0 FOR DA OBSTACLE SENZOR
 
 while True:
