@@ -10,7 +10,7 @@ sensor_pin2 = machine.Pin(0, machine.Pin.IN) # GPIO PIN 0 FOR DA OBSTACLE SENZOR
 
 while True:
     #READ DA VALUE
-    sound_value = sound_pin.value()
+    sound_value = sound_pin.value() 
 
     # TURN ON DA LED WHEN DA SOUND BE DA LOUD
     if sound_value == 1:
